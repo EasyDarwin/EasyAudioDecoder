@@ -7,16 +7,6 @@
 
 - **testEasyAudioDecoderr**：通过EasyAudioDecoderAPI对G711A/G711U/G726/AAC进行转码；
 
-	Windows编译方法，
-
-    	Visual Studio 2010 编译：./EasyAACEncoder-master/EasyAACEncoder.sln
-
-	Linux编译方法，
-		
-		chmod +x ./Buildit
-		./Buildit
-
-
 - **ARM版本的EasyAudioDecoder库可自行编译**；
 
 ## 调用过程 ##
