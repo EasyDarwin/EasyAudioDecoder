@@ -4,7 +4,7 @@
 
 ### Android AudioCodec库说明
 
- 1. 该工程（Android目录下的工程）为Android的NDK工程；
+ 1. 该工程（Android目录下的工程）为Android的NDK工程。安装android ndk，cd到jni目录，执行ndk-build；
  2. ffmpeg静态库已经编译ok，其中.h、.a文件位于ffmpeg/armeabi-v7a目录下；
  3. 该工程实际上是对于ffmpeg库的封装，具体实现见AACDecode.cpp文件；
  4. 库工程仅编译了armeabi-v7a版本，如需其他abi版本，可自己编译ffmpeg,参考[EasyPlayer Android音频解码库（第一部分，ffmpeg-android的编译](http://blog.csdn.net/jyt0551/article/details/52519096#0-qzone-1-94593-d020d2d2a4e8d1a374a433f596ad1440)，把对应abi的版本拷贝至ffmpeg目录下面，在Application.mk里增加改abi，再编译;
