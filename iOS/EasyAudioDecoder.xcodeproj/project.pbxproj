@@ -13,7 +13,7 @@
 		7646B65A1D72B6A6008131B9 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646B6541D72B68B008131B9 /* libavutil.a */; };
 		7646B65B1D72B6A6008131B9 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646B6551D72B68B008131B9 /* libswresample.a */; };
 		7646B65C1D72B6A6008131B9 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7646B6561D72B68B008131B9 /* libswscale.a */; };
-		76FCA2CA1D9AB49D000281CA /* EasyAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FCA2C21D9AB49D000281CA /* EasyAudioDecoder.h */; };
+		76FCA2CA1D9AB49D000281CA /* EasyAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FCA2C21D9AB49D000281CA /* EasyAudioDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76FCA2CB1D9AB49D000281CA /* EasyAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FCA2C31D9AB49D000281CA /* EasyAudioDecoder.m */; };
 		76FCA2CC1D9AB49D000281CA /* EasyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FCA2C41D9AB49D000281CA /* EasyTypes.h */; };
 		76FCA2CD1D9AB49D000281CA /* FFAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FCA2C51D9AB49D000281CA /* FFAudioDecoder.h */; };
@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7646B3781D729D33008131B9 /* EasyAudioDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyAudioDecoder.framework; path = EasyAudioDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7646B3781D729D33008131B9 /* EasyAudioDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyAudioDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7646B5CB1D72B68B008131B9 /* avcodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avcodec.h; sourceTree = "<group>"; };
 		7646B5CC1D72B68B008131B9 /* avdct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avdct.h; sourceTree = "<group>"; };
 		7646B5CD1D72B68B008131B9 /* avfft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avfft.h; sourceTree = "<group>"; };
@@ -206,7 +206,6 @@
 				76FCA2C81D9AB49D000281CA /* g711.m */,
 				76FCA2C91D9AB49D000281CA /* Info.plist */,
 			);
-			name = EasyAudioDecoder;
 			path = EasyAudioDecoder;
 			sourceTree = "<group>";
 		};
@@ -485,10 +484,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FCA2CA1D9AB49D000281CA /* EasyAudioDecoder.h in Headers */,
 				76FCA2CF1D9AB49D000281CA /* g711.h in Headers */,
 				76FCA2CC1D9AB49D000281CA /* EasyTypes.h in Headers */,
 				76FCA2CD1D9AB49D000281CA /* FFAudioDecoder.h in Headers */,
-				76FCA2CA1D9AB49D000281CA /* EasyAudioDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
