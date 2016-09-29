@@ -9,6 +9,13 @@
  3. 该工程实际上是对于ffmpeg库的封装，具体实现见AACDecode.cpp文件；
  4. 库工程仅编译了armeabi-v7a版本，如需其他abi版本，可自己编译ffmpeg,参考[EasyPlayer Android音频解码库（第一部分，ffmpeg-android的编译](http://blog.csdn.net/jyt0551/article/details/52519096#0-qzone-1-94593-d020d2d2a4e8d1a374a433f596ad1440)，把对应abi的版本拷贝至ffmpeg目录下面，在Application.mk里增加改abi，再编译;
  5.  对应的java文件为AudioCodec.java
+ 
+ ### iOS EasyAudioDecoder库说明
+ 
+ 1.该工程(iOS目录下的工程)为 xcode 的 framework 工程.双击 `EasyAudioDecoder.xcodeproj` 即可用 xcode 打开工程;
+ 2.ffmpeg 静态库已经编译 ok,在 iOS 目录下,同时支持真机和模似器;
+ 3.该工程实际上是对于 ffmpeg 库的封装,具体实现见 FFAudioDecoder.m 文件;
+ 4.使用该库的时候,引入头文件`EasyAudioDecoder.h`, API非常简单:`EasyAudioDecodeCreate`,`EasyAudioDecode`,`EasyAudioDecodeClose`分别表示创建解码器,解码,销毁解码器
 
 ## 调用示例 ##
 
