@@ -1,6 +1,6 @@
 ## EasyAudioDecoder ##
 
-**EasyAudioDecoder** 是EasyDarwin开源流媒体服务团队整理、开发的一款音频转码到Linear PCM的工具库，目前支持G.711A/PCMA、G.711U/PCMU、G726、AAC音频格式的转码，跨平台，支持Android & iOS；
+**EasyAudioDecoder** 是EasyDarwin开源流媒体服务团队整理、开发的一款音频转码到Linear PCM的工具库，目前支持G.711A/PCMA、G.711U/PCMU、G726、AAC音频格式的转码，跨平台，支持Android & iOS，目前已稳定应用于EasyPlayer、EasyClient等多个开源及商业项目；
 
 ### Android AudioCodec库说明
 
