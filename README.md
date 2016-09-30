@@ -25,7 +25,7 @@
 - **ARM版本的EasyAudioDecoder库可自行编译**；
 
 ## 调用过程 ##
-![](http://www.easydarwin.org/skin/easydarwin/images/easyaudiodecoder20160910.png)
+![](http://www.easydarwin.org/skin/easydarwin/images/easyaudiodecoder20160930.png)
 
 ## 获取更多信息 ##
 
