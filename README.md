@@ -1,6 +1,6 @@
-## EasyAudioDecoder ##
+## EasyAudioDecoder
 
-**EasyAudioDecoder** 是EasyDarwin开源流媒体服务团队整理、开发的一款音频转码到Linear PCM的工具库，目前支持G.711A/PCMA、G.711U/PCMU、G726、AAC音频格式的转码，跨平台，支持Android & iOS，目前已稳定应用于EasyPlayer、EasyClient等多个开源及商业项目；
+**EasyAudioDecoder** 是EasyDarwin开源流媒体服务团队整理、开发的一款音频转码到Linear PCM的工具库，目前支持G.711A/PCMA、G.711U/PCMU、G726、AAC音频格式的转码，跨平台，支持Android & iOS，目前已稳定应用于EasyPlayer等项目；
 
 ### Android AudioCodec库说明
 
@@ -18,21 +18,23 @@
  3. 该工程实际上是对于 ffmpeg 库的封装,具体实现见 FFAudioDecoder.m 文件;
  4. 使用该库的时候,引入头文件`EasyAudioDecoder.h`, API非常简单:`EasyAudioDecodeCreate`,`EasyAudioDecode`,`EasyAudioDecodeClose`分别表示创建解码器,解码,销毁解码器
 
-## 调用示例 ##
+## 调用示例
 
 - **testEasyAudioDecoderr**：通过EasyAudioDecoderAPI对G711A/G711U/G726/AAC进行转码；
 
 - **ARM版本的EasyAudioDecoder库可自行编译**；
 
-## 调用过程 ##
+## 调用过程
+
 ![](http://www.easydarwin.org/skin/easydarwin/images/easyaudiodecoder20160930.png)
 
-## 获取更多信息 ##
+
+## 获取更多信息
 
 邮件：[support@easydarwin.org](mailto:support@easydarwin.org) 
 
 WEB：[www.EasyDarwin.org](http://www.easydarwin.org)
 
-Copyright &copy; EasyDarwin.org 2012-2016
+Copyright &copy; EasyDarwin.org 2012-2019
 
 ![EasyDarwin](http://www.easydarwin.org/skin/easydarwin/images/wx_qrcode.jpg)
